@@ -1,38 +1,45 @@
-.App {
+/* App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Set primary color to deep purple */
+:root {
+  --primary-color: #673ab7; /* Deep Purple */
+  --secondary-color: #ff5722; /* Deep Orange */
+}
+
+/* Apply primary color to headings */
+h1,
+h2,
+h3 {
+  color: var(--primary-color);
+}
+
+/* Style for File Dropper */
+.file-dropper {
+  border: 2px dashed var(--primary-color);
+  padding: 20px;
   text-align: center;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.file-dropper:hover {
+  background-color: rgba(
+    103,
+    58,
+    183,
+    0.1
+  ); /* Slightly transparent deep purple */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.file-dropper input[type="file"] {
+  display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Additional styling for contrast color */
+.contrast-color {
+  color: var(--secondary-color);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Add any other custom styles as needed */
