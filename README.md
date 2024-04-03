@@ -4,6 +4,7 @@ The File Toolkit Web Application is a versatile tool designed to provide various
 
 ## File Structure
 
+```bash
 file-toolkit/
 ├── node_modules/ # Directory for project dependencies (created by npm)
 ├── public/ # Public assets and HTML template
@@ -31,6 +32,7 @@ file-toolkit/
 ├── package.json # Project dependencies and scripts
 ├── package-lock.json # Auto-generated file for npm dependencies
 └── README.md # Project documentation and instructions
+```
 
 ## Instructions to Run
 
@@ -42,13 +44,22 @@ To run the File Toolkit Web Application locally, follow these steps:
    ```
 
 Navigate to the project directory:
+
+```bash
 cd file-toolkit
+```
 
 Install dependencies:
+
+```bash
 npm install
+```
 
 Start the development server:
+
+```bash
 npm start
+```
 
 Open your web browser and visit http://localhost:3000 to view the application.
 
