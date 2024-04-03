@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# File Toolkit Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The File Toolkit Web Application is a versatile tool designed to provide various file-related functionalities such as file uploading, conversion, compression, splitting, viewing, metadata editing, organizing, sharing, and searching. It offers a user-friendly interface to perform these tasks efficiently.
 
-## Available Scripts
+## File Structure
 
-In the project directory, you can run:
+file-toolkit/
+├── node_modules/ # Directory for project dependencies (created by npm)
+├── public/ # Public assets and HTML template
+│ ├── index.html # Main HTML template
+│ ├── favicon.ico # Favicon icon
+│ └── manifest.json # Web App Manifest
+├── src/ # Source code directory
+│ ├── components/ # Components directory
+│ │ ├── FileUploader.js # FileUploader component
+│ │ ├── FileConverter.js # FileConverter component
+│ │ ├── FileCompressor.js # FileCompressor component
+│ │ ├── FileSplitter.js # FileSplitter component
+│ │ ├── FileViewer.js # FileViewer component
+│ │ ├── FileMetadataEditor.js # FileMetadataEditor component
+│ │ ├── FileOrganizer.js # FileOrganizer component
+│ │ ├── FileSharer.js # FileSharer component
+│ │ └── FileSearch.js # FileSearch component
+│ ├── utils/ # Utility functions or helper files
+│ │ ├── fileUtils.js # File utility functions
+│ │ └── converters.js # File conversion functions
+│ ├── App.js # Main App component
+│ ├── index.js # Entry point for the React application
+│ └── index.css # Global styles
+├── .gitignore # Git ignore file
+├── package.json # Project dependencies and scripts
+├── package-lock.json # Auto-generated file for npm dependencies
+└── README.md # Project documentation and instructions
 
-### `npm start`
+## Instructions to Run
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run the File Toolkit Web Application locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/V1N0C0DES/file-toolkit.git
+   ```
 
-### `npm test`
+Navigate to the project directory:
+cd file-toolkit
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install dependencies:
+npm install
 
-### `npm run build`
+Start the development server:
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open your web browser and visit http://localhost:3000 to view the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Usage
+The File Toolkit Web Application provides a user-friendly interface to perform various file-related tasks. You can upload files, convert them to different formats, compress files, split large files, view files, edit metadata, organize files, share files, and search for files efficiently.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to explore the different functionalities provided by the application and customize it according to your requirements.
