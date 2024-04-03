@@ -38,10 +38,11 @@ file-toolkit/
 
 To run the File Toolkit Web Application locally, follow these steps:
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/V1N0C0DES/file-toolkit.git
-   ```
+**Clone the repository**:
+
+```bash
+git clone https://github.com/V1N0C0DES/file-toolkit.git
+```
 
 Navigate to the project directory:
 
